@@ -1,0 +1,13 @@
+name: test
+on: [push, pull_request]
+
+jobs:
+  test_day2session:
+   runs-on: ubuntu_latest
+   
+   steps:
+   - name: myfirstste
+     run: |
+      echo "Hi team"
+      ls -l
+      pwd
